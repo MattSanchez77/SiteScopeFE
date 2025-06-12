@@ -8,7 +8,6 @@ function Navbar() {
         <div className={styles['navbar-logo']}>SiteScope</div>
         <ul className={styles['navbar-links']}>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/results">Results</Link></li>
           <li><Link to="/about">About</Link></li>
         </ul>
       </nav>

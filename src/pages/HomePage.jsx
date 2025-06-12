@@ -15,8 +15,7 @@ function Home() {
 
   return (
     <div className="home-container">
-      <h1 className="home-title">SiteScope</h1>
-      <p className="home-slogan">Stay ahead of the build.</p>
+      <h1 className="home-title">Stay ahead of the build</h1>
       <p className="home-description">
         Find out what’s being built in your neighborhood — search by ZIP code to view nearby construction projects.
       </p>
