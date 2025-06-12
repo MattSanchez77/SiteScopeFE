@@ -1,0 +1,19 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .message {
+    color: #444;
+    font-style: italic;
+  }
+  
+  .error {
+    color: crimson;
+  }
