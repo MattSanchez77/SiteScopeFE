@@ -38,3 +38,9 @@ input {
   white-space: normal;
   
 }
+
+.home-input {
+  color: white;
+  background-color: #222;
+  border: 1px solid #555;
+}

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import SiteCard from '../components/SiteCard';
-import './ResultsPage.module.css';
+import styles from './ResultsPage.module.css';
+import Card from '../components/Cards';
 
 function Results() {
     const [searchParams] = useSearchParams();
@@ -9,6 +9,7 @@ function Results() {
     const [sites, setSites] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
+    
   
     useEffect(() => {
       if (!zip) return;
@@ -22,7 +23,8 @@ function Results() {
           return res.json();
         })
         .then((data) => {
-          setSites(data);
+          // console.log('API response:', data);
+          setSites(data.sites);
           setLoading(false);
         })
         .catch((err) => {
@@ -45,7 +47,7 @@ function Results() {
   
         <div className={styles.siteList}>
           {sites.map((site) => (
-            <SiteCard key={site._id} site={site} />
+            <Card key={site._id} site={site} />
           ))}
         </div>
       </div>
