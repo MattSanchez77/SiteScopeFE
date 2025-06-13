@@ -1,0 +1,26 @@
+.container {
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .text {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #666;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
