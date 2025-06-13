@@ -19,10 +19,10 @@ function About() {
   
         <h2>Features</h2>
         <ul className="about-list">
-          <li>🔍 Search by ZIP code</li>
-          <li>📄 View detailed site information</li>
-          <li>💾 Custom backend API with full CRUD</li>
-          <li>⚙️ Built using the MERN stack</li>
+          <li>Search by ZIP code</li>
+          <li>View detailed site information</li>
+          <li>Custom backend API with full CRUD</li>
+          <li>Built using the MERN stack</li>
         </ul>
   
         <h2>Technology</h2>

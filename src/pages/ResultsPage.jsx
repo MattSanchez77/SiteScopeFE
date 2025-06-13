@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import SiteCard from '../components/SiteCard';
-import './Results.css';
+import './ResultsPage.module.css';
 
 function Results() {
     const [searchParams] = useSearchParams();
